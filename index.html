@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,th,td{ border: 1px solid black;
+        width: 100%;}
+    </style>
+</head>
+<body>
+    <label for="Phystotal1">
+        Total Number Of Physics <input type="number" id="Phystotal">
+    </label>
+    <br>
+    <br>
+    <label for="Physicsobtained">
+        Obtained Number Of Physics<input type="number" id="Physicsobtained">
+    </label>
+    <br>
+    <br>
+    <label for="chemistrytotal">
+        Total Number Of Chemistry<input type="number" id="chemistrytotal">
+    </label>
+    <br>
+    <br>
+    <label for="chemistryobtained">
+        Obtained Number Of Chemistry<input type="number" id="chemistryobtained">
+    </label>
+    <br>
+    <br>
+    <label for="biologytotal">
+        Total Number Of Biology <input type="number" id="biologytotal">
+    </label>
+    <br>
+    <br>
+    <label for="biologyobtained">
+        Obtained Number Of Biologyu <input type="number" id="biologyobtained">
+    </label>
+    <br>
+    <button>Check</button>
+    <div class="">
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Total</th>
+                <th>Obtained</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td id="showtotalPhysics"></td>
+                <td id="showobtainphysics"></td>
+                <td id="showpercentagephysics"></td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td id="showtotalchemistry"></td>
+                <td id="showobtainchemistry"></td>
+                <td id="showpercentagechemistry"></td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td id="showtotalbiology"></td>
+                <td id="showobtainbiology"></td>
+                <td id="showpercentagebiology"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
